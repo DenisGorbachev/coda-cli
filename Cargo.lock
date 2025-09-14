@@ -129,6 +129,23 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f46ad14479a25103f283c0f10005961cf086d8dc42205bb44c46ac563475dca6"
 
 [[package]]
+name = "coda-cli"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "derive-getters",
+ "derive-new",
+ "derive_more 2.0.1",
+ "fmt-derive",
+ "helpful",
+ "standard-traits",
+ "strum",
+ "stub-macro",
+ "subtype",
+ "tokio",
+]
+
+[[package]]
 name = "colorchoice"
 version = "1.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -391,23 +408,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1885c039570dc00dcb4ff087a89e185fd56bae234ddc7f056a945bf36467248d"
 dependencies = [
  "proc-macro2",
-]
-
-[[package]]
-name = "rust-pre-public-cli-template"
-version = "0.1.0"
-dependencies = [
- "clap",
- "derive-getters",
- "derive-new",
- "derive_more 2.0.1",
- "fmt-derive",
- "helpful",
- "standard-traits",
- "strum",
- "stub-macro",
- "subtype",
- "tokio",
 ]
 
 [[package]]

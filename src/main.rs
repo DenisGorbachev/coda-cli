@@ -1,5 +1,5 @@
 use clap::Parser;
-use rust_pre_public_cli_template::{Cli, Outcome};
+use coda_cli::{Cli, Outcome};
 
 #[tokio::main]
 async fn main() -> Outcome {
